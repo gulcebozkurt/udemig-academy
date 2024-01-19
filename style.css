@@ -1,0 +1,27 @@
+body::before{
+display: block;
+content: ' ';
+height: 70px;
+}
+
+.bu h2{
+   z-index: 1;
+}
+
+.img1{
+   margin-left: 140px;
+}
+
+.back{
+    background-image: url(img/fo.jpg) !important;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: -10;
+}
+
+iframe{
+   width: 550px;
+   height: 350px;
+}
